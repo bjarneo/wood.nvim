@@ -1,4 +1,4 @@
--- Comment.nvim highlights for Ash theme
+-- Comment.nvim highlights for Wood theme
 local M = {}
 
 -- Helper function to set highlights

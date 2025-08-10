@@ -1,4 +1,4 @@
--- Fidget.nvim highlights for Ash theme
+-- Fidget.nvim highlights for Wood theme
 local M = {}
 
 -- Helper function to set highlights

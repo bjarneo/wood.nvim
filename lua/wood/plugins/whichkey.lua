@@ -1,4 +1,4 @@
--- WhichKey highlights for Ash theme
+-- WhichKey highlights for Wood theme
 local M = {}
 
 -- Helper function to set highlights

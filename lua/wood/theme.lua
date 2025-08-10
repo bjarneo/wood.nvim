@@ -1,4 +1,4 @@
--- Ash theme colors and highlight definitions
+-- Wood theme colors and highlight definitions
 local M = {}
 
 -- Color palette
@@ -191,31 +191,31 @@ function M.apply(config)
 	end
 
 	if config.plugins.lsp then
-		require("ash.plugins.lsp").apply(colors, config)
+		require("wood.plugins.lsp").apply(colors, config)
 	end
 
 	if config.plugins.telescope then
-		require("ash.plugins.telescope").apply(colors, config)
+		require("wood.plugins.telescope").apply(colors, config)
 	end
 
 	if config.plugins.nvimtree then
-		require("ash.plugins.nvimtree").apply(colors, config)
+		require("wood.plugins.nvimtree").apply(colors, config)
 	end
 
 	if config.plugins.whichkey then
-		require("ash.plugins.whichkey").apply(colors, config)
+		require("wood.plugins.whichkey").apply(colors, config)
 	end
 
 	if config.plugins.gitsigns then
-		require("ash.plugins.gitsigns").apply(colors, config)
+		require("wood.plugins.gitsigns").apply(colors, config)
 	end
 
 	if config.plugins.indent_blankline then
-		require("ash.plugins.indent_blankline").apply(colors, config)
+		require("wood.plugins.indent_blankline").apply(colors, config)
 	end
 
 	if config.plugins.markdown then
-		require("ash.plugins.markdown").apply(colors, config)
+		require("wood.plugins.markdown").apply(colors, config)
 	end
 
 	if config.plugins.hlchunk then

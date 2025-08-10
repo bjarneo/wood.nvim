@@ -1,4 +1,4 @@
--- nvim-lint highlights for Ash theme
+-- nvim-lint highlights for Wood theme
 local M = {}
 
 -- Helper function to set highlights

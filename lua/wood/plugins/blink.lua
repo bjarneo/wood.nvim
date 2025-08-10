@@ -1,4 +1,4 @@
--- Blink.cmp highlights for Ash theme
+-- Blink.cmp highlights for Wood theme
 local M = {}
 
 -- Helper function to set highlights

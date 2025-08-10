@@ -1,4 +1,4 @@
--- Telescope highlights for Ash theme
+-- Telescope highlights for Wood theme
 local M = {}
 
 -- Helper function to set highlights
@@ -67,7 +67,7 @@ function M.apply(colors, config)
 
 	-- Telescope git
 	hl("TelescopeResultsGitStatus", { fg = colors.git_change })
-	hl("TelescopeResultsGitHash", { fg = colors.comment_alt })
+	hl("TelescopeResultsGitHwood", { fg = colors.comment_alt })
 	hl("TelescopeResultsGitBranch", { fg = colors.git_add })
 	hl("TelescopeResultsGitCommit", { fg = colors.fg })
 	hl("TelescopeResultsGitUser", { fg = colors.property })

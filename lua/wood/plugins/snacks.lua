@@ -1,4 +1,4 @@
--- Snacks.nvim highlights for Ash theme
+-- Snacks.nvim highlights for Wood theme
 local M = {}
 
 -- Helper function to set highlights
@@ -19,18 +19,18 @@ function M.apply(colors, config)
 	hl("SnacksNotificationFooter", { fg = colors.comment })
 	hl("SnacksNotificationHistory", { fg = colors.fg, bg = colors.bg_alt })
 
-	-- Snacks dashboard
-	hl("SnacksDashboardNormal", { fg = colors.fg, bg = colors.bg })
-	hl("SnacksDashboardDesc", { fg = colors.comment })
-	hl("SnacksDashboardFile", { fg = colors.string })
-	hl("SnacksDashboardDir", { fg = colors.type })
-	hl("SnacksDashboardFooter", { fg = colors.comment })
-	hl("SnacksDashboardHeader", { fg = colors.func, bold = true })
-	hl("SnacksDashboardIcon", { fg = colors.func })
-	hl("SnacksDashboardKey", { fg = colors.keyword })
-	hl("SnacksDashboardTerminal", { fg = colors.fg })
-	hl("SnacksDashboardSpecial", { fg = colors.property })
-	hl("SnacksDashboardTitle", { fg = colors.func, bold = true })
+	-- Snacks dwoodboard
+	hl("SnacksDwoodboardNormal", { fg = colors.fg, bg = colors.bg })
+	hl("SnacksDwoodboardDesc", { fg = colors.comment })
+	hl("SnacksDwoodboardFile", { fg = colors.string })
+	hl("SnacksDwoodboardDir", { fg = colors.type })
+	hl("SnacksDwoodboardFooter", { fg = colors.comment })
+	hl("SnacksDwoodboardHeader", { fg = colors.func, bold = true })
+	hl("SnacksDwoodboardIcon", { fg = colors.func })
+	hl("SnacksDwoodboardKey", { fg = colors.keyword })
+	hl("SnacksDwoodboardTerminal", { fg = colors.fg })
+	hl("SnacksDwoodboardSpecial", { fg = colors.property })
+	hl("SnacksDwoodboardTitle", { fg = colors.func, bold = true })
 
 	-- Snacks indent
 	hl("SnacksIndent", { fg = colors.comment })

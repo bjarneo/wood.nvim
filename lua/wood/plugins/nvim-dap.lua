@@ -1,4 +1,4 @@
--- nvim-dap highlights for Ash theme
+-- nvim-dap highlights for Wood theme
 local M = {}
 
 -- Helper function to set highlights

@@ -1,4 +1,4 @@
--- Indent Blankline highlights for Ash theme
+-- Indent Blankline highlights for Wood theme
 local M = {}
 
 -- Helper function to set highlights

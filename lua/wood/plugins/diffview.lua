@@ -1,4 +1,4 @@
--- Diffview.nvim highlights for Ash theme
+-- Diffview.nvim highlights for Wood theme
 local M = {}
 
 -- Helper function to set highlights
@@ -30,7 +30,7 @@ function M.apply(colors, config)
 	hl("DiffviewDim1", { fg = colors.comment })
 	hl("DiffviewFolderName", { fg = colors.type })
 	hl("DiffviewFolderSign", { fg = colors.comment })
-	hl("DiffviewHash", { fg = colors.comment })
+	hl("DiffviewHwood", { fg = colors.comment })
 	hl("DiffviewStatusAdded", { fg = colors.git_add })
 	hl("DiffviewStatusUntracked", { fg = colors.git_add })
 	hl("DiffviewStatusModified", { fg = colors.git_change })

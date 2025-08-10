@@ -1,4 +1,4 @@
--- Markdown highlights for Ash theme
+-- Markdown highlights for Wood theme
 local M = {}
 
 -- Helper function to set highlights

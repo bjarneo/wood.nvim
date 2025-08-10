@@ -1,4 +1,4 @@
--- Mason.nvim highlights for Ash theme
+-- Mason.nvim highlights for Wood theme
 local M = {}
 
 -- Helper function to set highlights
@@ -122,8 +122,8 @@ function M.apply(colors, config)
 	-- Mason cross
 	hl("MasonCross", { fg = colors.error })
 
-	-- Mason dash
-	hl("MasonDash", { fg = colors.comment })
+	-- Mason dwood
+	hl("MasonDwood", { fg = colors.comment })
 
 	-- Mason arrow
 	hl("MasonArrow", { fg = colors.func })

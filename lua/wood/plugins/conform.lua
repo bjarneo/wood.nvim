@@ -1,4 +1,4 @@
--- Conform.nvim highlights for Ash theme
+-- Conform.nvim highlights for Wood theme
 local M = {}
 
 -- Helper function to set highlights

@@ -1,4 +1,4 @@
--- Noice.nvim highlights for Ash theme
+-- Noice.nvim highlights for Wood theme
 local M = {}
 
 -- Helper function to set highlights

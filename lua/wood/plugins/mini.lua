@@ -1,4 +1,4 @@
--- Mini.nvim highlights for Ash theme
+-- Mini.nvim highlights for Wood theme
 local M = {}
 
 -- Helper function to set highlights

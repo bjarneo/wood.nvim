@@ -1,4 +1,4 @@
--- LSP highlights for Ash theme
+-- LSP highlights for Wood theme
 local M = {}
 
 -- Helper function to set highlights

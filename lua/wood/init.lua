@@ -1,4 +1,4 @@
--- Ash theme initialization module
+-- Wood theme initialization module
 local M = {}
 
 -- Default configuration

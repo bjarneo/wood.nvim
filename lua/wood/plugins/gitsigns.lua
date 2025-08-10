@@ -1,4 +1,4 @@
--- GitSigns highlights for Ash theme
+-- GitSigns highlights for Wood theme
 local M = {}
 
 -- Helper function to set highlights
@@ -67,7 +67,7 @@ function M.apply(colors, config)
 
 	-- GitSigns blame
 	hl("GitSignsBlame", { fg = colors.comment, italic = true })
-	hl("GitSignsBlameHash", { fg = colors.comment_alt })
+	hl("GitSignsBlameHwood", { fg = colors.comment_alt })
 	hl("GitSignsBlameAuthor", { fg = colors.property })
 	hl("GitSignsBlameDate", { fg = colors.comment })
 	hl("GitSignsBlameSummary", { fg = colors.fg })

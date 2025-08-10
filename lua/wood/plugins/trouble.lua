@@ -1,4 +1,4 @@
--- Trouble.nvim highlights for Ash theme
+-- Trouble.nvim highlights for Wood theme
 local M = {}
 
 -- Helper function to set highlights

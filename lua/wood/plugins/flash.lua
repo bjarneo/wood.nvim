@@ -1,4 +1,4 @@
--- Flash.nvim highlights for Ash theme
+-- Flwood.nvim highlights for Wood theme
 local M = {}
 
 -- Helper function to set highlights
@@ -7,32 +7,32 @@ local function hl(group, opts)
 end
 
 function M.apply(colors, config)
-	-- Flash main highlights
-	hl("FlashBackdrop", { fg = colors.comment })
-	hl("FlashLabel", { fg = colors.bg, bg = colors.func, bold = true })
-	hl("FlashMatch", { fg = colors.search_fg, bg = colors.search_bg })
-	hl("FlashCurrent", { fg = colors.bg, bg = colors.warning })
-	hl("FlashPrompt", { fg = colors.keyword, bold = true })
-	hl("FlashPromptIcon", { fg = colors.func })
-	hl("FlashCursor", { fg = colors.bg, bg = colors.cursor })
+	-- Flwood main highlights
+	hl("FlwoodBackdrop", { fg = colors.comment })
+	hl("FlwoodLabel", { fg = colors.bg, bg = colors.func, bold = true })
+	hl("FlwoodMatch", { fg = colors.search_fg, bg = colors.search_bg })
+	hl("FlwoodCurrent", { fg = colors.bg, bg = colors.warning })
+	hl("FlwoodPrompt", { fg = colors.keyword, bold = true })
+	hl("FlwoodPromptIcon", { fg = colors.func })
+	hl("FlwoodCursor", { fg = colors.bg, bg = colors.cursor })
 
-	-- Flash treesitter
-	hl("FlashTreachery", { fg = colors.error, bold = true })
+	-- Flwood treesitter
+	hl("FlwoodTreachery", { fg = colors.error, bold = true })
 
-	-- Flash leap compatibility
+	-- Flwood leap compatibility
 	hl("LeapMatch", { fg = colors.search_fg, bg = colors.search_bg })
 	hl("LeapLabelPrimary", { fg = colors.bg, bg = colors.func, bold = true })
 	hl("LeapLabelSecondary", { fg = colors.bg, bg = colors.property, bold = true })
 	hl("LeapBackdrop", { fg = colors.comment })
 
-	-- Flash hop compatibility
+	-- Flwood hop compatibility
 	hl("HopNextKey", { fg = colors.bg, bg = colors.func, bold = true })
 	hl("HopNextKey1", { fg = colors.bg, bg = colors.property, bold = true })
 	hl("HopNextKey2", { fg = colors.bg, bg = colors.type, bold = true })
 	hl("HopUnmatched", { fg = colors.comment })
 
-	-- Flash lightspeed compatibility
-	hl("LightspeedGreyWash", { fg = colors.comment })
+	-- Flwood lightspeed compatibility
+	hl("LightspeedGreyWwood", { fg = colors.comment })
 	hl("LightspeedLabel", { fg = colors.bg, bg = colors.func, bold = true })
 	hl("LightspeedLabelDistant", { fg = colors.bg, bg = colors.property, bold = true })
 	hl("LightspeedLabelDistantOverlapped", { fg = colors.bg, bg = colors.type, bold = true })
@@ -45,48 +45,48 @@ function M.apply(colors, config)
 	hl("LightspeedUniqueChar", { fg = colors.func, bold = true })
 	hl("LightspeedUnlabeledMatch", { fg = colors.search_fg, bg = colors.search_bg })
 
-	-- Flash custom modes
-	hl("FlashChar", { fg = colors.func, bold = true })
-	hl("FlashWord", { fg = colors.keyword, bold = true })
-	hl("FlashLine", { fg = colors.property, bold = true })
-	hl("FlashRemote", { fg = colors.type, bold = true })
+	-- Flwood custom modes
+	hl("FlwoodChar", { fg = colors.func, bold = true })
+	hl("FlwoodWord", { fg = colors.keyword, bold = true })
+	hl("FlwoodLine", { fg = colors.property, bold = true })
+	hl("FlwoodRemote", { fg = colors.type, bold = true })
 
-	-- Flash search
-	hl("FlashSearch", { fg = colors.search_fg, bg = colors.search_bg })
-	hl("FlashSearchMatch", { fg = colors.func, bg = colors.bg_highlight })
-	hl("FlashSearchCursor", { fg = colors.bg, bg = colors.cursor })
+	-- Flwood search
+	hl("FlwoodSearch", { fg = colors.search_fg, bg = colors.search_bg })
+	hl("FlwoodSearchMatch", { fg = colors.func, bg = colors.bg_highlight })
+	hl("FlwoodSearchCursor", { fg = colors.bg, bg = colors.cursor })
 
-	-- Flash substitute
-	hl("FlashSubstitute", { fg = colors.bg, bg = colors.warning })
-	hl("FlashSubstituteMatch", { fg = colors.warning, bg = colors.bg_highlight })
+	-- Flwood substitute
+	hl("FlwoodSubstitute", { fg = colors.bg, bg = colors.warning })
+	hl("FlwoodSubstituteMatch", { fg = colors.warning, bg = colors.bg_highlight })
 
-	-- Flash yank
-	hl("FlashYank", { fg = colors.bg, bg = colors.info })
-	hl("FlashYankMatch", { fg = colors.info, bg = colors.bg_highlight })
+	-- Flwood yank
+	hl("FlwoodYank", { fg = colors.bg, bg = colors.info })
+	hl("FlwoodYankMatch", { fg = colors.info, bg = colors.bg_highlight })
 
-	-- Flash motion
-	hl("FlashMotion", { fg = colors.bg, bg = colors.property })
-	hl("FlashMotionMatch", { fg = colors.property, bg = colors.bg_highlight })
+	-- Flwood motion
+	hl("FlwoodMotion", { fg = colors.bg, bg = colors.property })
+	hl("FlwoodMotionMatch", { fg = colors.property, bg = colors.bg_highlight })
 
-	-- Flash range
-	hl("FlashRange", { fg = colors.bg, bg = colors.type })
-	hl("FlashRangeMatch", { fg = colors.type, bg = colors.bg_highlight })
+	-- Flwood range
+	hl("FlwoodRange", { fg = colors.bg, bg = colors.type })
+	hl("FlwoodRangeMatch", { fg = colors.type, bg = colors.bg_highlight })
 
-	-- Flash error
-	hl("FlashError", { fg = colors.error, bold = true })
-	hl("FlashErrorMatch", { fg = colors.error, bg = colors.bg_highlight })
+	-- Flwood error
+	hl("FlwoodError", { fg = colors.error, bold = true })
+	hl("FlwoodErrorMatch", { fg = colors.error, bg = colors.bg_highlight })
 
-	-- Flash warning
-	hl("FlashWarning", { fg = colors.warning, bold = true })
-	hl("FlashWarningMatch", { fg = colors.warning, bg = colors.bg_highlight })
+	-- Flwood warning
+	hl("FlwoodWarning", { fg = colors.warning, bold = true })
+	hl("FlwoodWarningMatch", { fg = colors.warning, bg = colors.bg_highlight })
 
-	-- Flash info
-	hl("FlashInfo", { fg = colors.info, bold = true })
-	hl("FlashInfoMatch", { fg = colors.info, bg = colors.bg_highlight })
+	-- Flwood info
+	hl("FlwoodInfo", { fg = colors.info, bold = true })
+	hl("FlwoodInfoMatch", { fg = colors.info, bg = colors.bg_highlight })
 
-	-- Flash hint
-	hl("FlashHint", { fg = colors.hint, bold = true })
-	hl("FlashHintMatch", { fg = colors.hint, bg = colors.bg_highlight })
+	-- Flwood hint
+	hl("FlwoodHint", { fg = colors.hint, bold = true })
+	hl("FlwoodHintMatch", { fg = colors.hint, bg = colors.bg_highlight })
 end
 
 return M
