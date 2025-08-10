@@ -4,34 +4,34 @@ local M = {}
 -- Color palette
 M.colors = {
 	-- Base colors
-	bg = "#121212",
+	bg = "#000000",
 	fg = "#e0e0e0",
 
 	-- UI colors
-	bg_alt = "#8a8a8a",
-	bg_highlight = "#8a8a8a",
-	bg_visual = "#767676",
-	border = "#8a8a8a",
+	bg_alt = "#E2ECBF",
+	bg_highlight = "#E2ECBF",
+	bg_visual = "#86964F",
+	border = "#E2ECBF",
 
 	-- Syntax colors
-	comment = "#9e9e9e",
-	comment_alt = "#9e9e9e",
+	comment = "#E2ECBF",
+	comment_alt = "#E2ECBF",
 
 	-- Functions and methods
-	func = "#ffffff",
-	func_builtin = "#ffffff",
+	func = "#e0e0e0",
+	func_builtin = "#e0e0e0",
 
 	-- Strings
 	string = "#b2b2b2",
 	string_template = "#b2b2b2",
-	string_escape = "#626262",
-	string_regex = "#626262",
+	string_escape = "#DDA15E",
+	string_regex = "#DDA15E",
 
 	-- Keywords and control flow
-	keyword = "#626262",
+	keyword = "#DDA15E",
 
 	-- Types and classes
-	type = "#626262",
+	type = "#DDA15E",
 
 	-- Constants and numbers
 	constant = "#b2b2b2",
@@ -43,43 +43,43 @@ M.colors = {
 	property = "#e0e0e0",
 
 	-- Operators and punctuation
-	operator = "#626262",
-	punctuation = "#9e9e9e",
+	operator = "#DDA15E",
+	punctuation = "#E2ECBF",
 
 	-- Special colors
-	cursor = "#9e9e9e",
-	line_number = "#9e9e9e",
-	line_number_active = "#ffffff",
+	cursor = "#E2ECBF",
+	line_number = "#E2ECBF",
+	line_number_active = "#e0e0e0",
 
 	-- Diagnostic colors
-	error = "#626262",
-	warning = "#626262",
-	info = "#626262",
-	hint = "#626262",
+	error = "#DDA15E",
+	warning = "#DDA15E",
+	info = "#DDA15E",
+	hint = "#DDA15E",
 
 	-- Git colors
-	git_add = "#767676",
-	git_change = "#767676",
-	git_delete = "#767676",
-	git_ignore = "#9e9e9e",
+	git_add = "#86964F",
+	git_change = "#86964F",
+	git_delete = "#86964F",
+	git_ignore = "#E2ECBF",
 
 	-- Terminal colors
-	terminal_black = "#121212",
-	terminal_red = "#8a8a8a",
-	terminal_green = "#767676",
-	terminal_yellow = "#9e9e9e",
-	terminal_blue = "#626262",
-	terminal_magenta = "#8a8a8a",
-	terminal_cyan = "#767676",
+	terminal_black = "#000000",
+	terminal_red = "#E2ECBF",
+	terminal_green = "#86964F",
+	terminal_yellow = "#E2ECBF",
+	terminal_blue = "#DDA15E",
+	terminal_magenta = "#E2ECBF",
+	terminal_cyan = "#86964F",
 	terminal_white = "#e0e0e0",
-	terminal_bright_black = "#8a8a8a",
-	terminal_bright_red = "#9e9e9e",
-	terminal_bright_green = "#767676",
+	terminal_bright_black = "#E2ECBF",
+	terminal_bright_red = "#999999",
+	terminal_bright_green = "#86964F",
 	terminal_bright_yellow = "#b2b2b2",
-	terminal_bright_blue = "#626262",
-	terminal_bright_magenta = "#8a8a8a",
-	terminal_bright_cyan = "#9e9e9e",
-	terminal_bright_white = "#ffffff",
+	terminal_bright_blue = "#DDA15E",
+	terminal_bright_magenta = "#E2ECBF",
+	terminal_bright_cyan = "#E2ECBF",
+	terminal_bright_white = "#e0e0e0",
 
 	-- Additional colors
 	none = "NONE",
