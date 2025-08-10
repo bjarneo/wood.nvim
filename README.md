@@ -6,13 +6,6 @@ A simple, elegant, and dark theme for Neovim.
   <img src="theme.png" alt="Wood Theme Preview">
 </p>
 
->A whisper soft, a final sigh,  
->Of embers fading, where flames danced high.  
->A silver ghost on the hearthstone laid,  
->A memory of the fire's parade.  
->This is the wood, the soft and grey,  
->The quiet end of a burning day.
-
 ## Installation
 
 Install with your favorite plugin manager.
