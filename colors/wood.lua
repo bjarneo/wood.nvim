@@ -23,21 +23,22 @@ local palette = {
     background = "#000000",
     foreground = "#e0e0e0",
     black = "#000000",
-    red = "#E2ECBF",
+    red = "#f0f0f0", -- was #E2ECBF
     green = "#86964F",
-    yellow = "#E2ECBF",
+    yellow = "#f0f0f0", -- was #E2ECBF
     blue = "#DDA15E",
-    magenta = "#E2ECBF",
+    magenta = "#f0f0f0", -- was #E2ECBF
     cyan = "#86964F",
     white = "#e0e0e0",
-    bright_black = "#E2ECBF",
+    bright_black = "#f0f0f0", -- was #E2ECBF
     bright_red = "#999999",
     bright_green = "#86964F",
     bright_yellow = "#b2b2b2",
     bright_blue = "#DDA15E",
-    bright_magenta = "#E2ECBF",
-    bright_cyan = "#E2ECBF",
+    bright_magenta = "#f0f0f0", -- was #E2ECBF
+    bright_cyan = "#f0f0f0", -- was #E2ECBF
     bright_white = "#e0e0e0",
+    cursor_line = "#222222", -- new
 }
 
 -- Color palette from wood theme
@@ -48,7 +49,7 @@ local colors = {
 
 	-- UI colors
 	bg_alt = palette.bright_black,
-	bg_highlight = palette.bright_black,
+	bg_highlight = palette.cursor_line,
 	bg_visual = palette.green,
 	border = palette.bright_black,
 

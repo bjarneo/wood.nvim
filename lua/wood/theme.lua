@@ -8,14 +8,14 @@ M.colors = {
 	fg = "#e0e0e0",
 
 	-- UI colors
-	bg_alt = "#E2ECBF",
-	bg_highlight = "#E2ECBF",
+	bg_alt = "#f0f0f0",
+	bg_highlight = "#222222",
 	bg_visual = "#86964F",
-	border = "#E2ECBF",
+	border = "#f0f0f0",
 
 	-- Syntax colors
-	comment = "#E2ECBF",
-	comment_alt = "#E2ECBF",
+	comment = "#f0f0f0",
+	comment_alt = "#f0f0f0",
 
 	-- Functions and methods
 	func = "#e0e0e0",
@@ -44,11 +44,11 @@ M.colors = {
 
 	-- Operators and punctuation
 	operator = "#DDA15E",
-	punctuation = "#E2ECBF",
+	punctuation = "#f0f0f0",
 
 	-- Special colors
-	cursor = "#E2ECBF",
-	line_number = "#E2ECBF",
+	cursor = "#f0f0f0",
+	line_number = "#f0f0f0",
 	line_number_active = "#e0e0e0",
 
 	-- Diagnostic colors
@@ -61,24 +61,24 @@ M.colors = {
 	git_add = "#86964F",
 	git_change = "#86964F",
 	git_delete = "#86964F",
-	git_ignore = "#E2ECBF",
+	git_ignore = "#f0f0f0",
 
 	-- Terminal colors
 	terminal_black = "#000000",
-	terminal_red = "#E2ECBF",
+	terminal_red = "#f0f0f0",
 	terminal_green = "#86964F",
-	terminal_yellow = "#E2ECBF",
+	terminal_yellow = "#f0f0f0",
 	terminal_blue = "#DDA15E",
-	terminal_magenta = "#E2ECBF",
+	terminal_magenta = "#f0f0f0",
 	terminal_cyan = "#86964F",
 	terminal_white = "#e0e0e0",
-	terminal_bright_black = "#E2ECBF",
+	terminal_bright_black = "#f0f0f0",
 	terminal_bright_red = "#999999",
 	terminal_bright_green = "#86964F",
 	terminal_bright_yellow = "#b2b2b2",
 	terminal_bright_blue = "#DDA15E",
-	terminal_bright_magenta = "#E2ECBF",
-	terminal_bright_cyan = "#E2ECBF",
+	terminal_bright_magenta = "#f0f0f0",
+	terminal_bright_cyan = "#f0f0f0",
 	terminal_bright_white = "#e0e0e0",
 
 	-- Additional colors
