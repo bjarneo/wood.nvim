@@ -22,6 +22,8 @@ local colors = {
   bright_magenta = '#bc6c25',
   bright_cyan = '#606c38',
   bright_white = '#fefae0',
+
+  comment = '#8d936a',
 }
 
 -- Vim editor colors
@@ -31,7 +33,7 @@ vim.o.termguicolors = true
 -- General
 vim.api.nvim_set_hl(0, "Normal", { fg = colors.fg, bg = colors.bg })
 -- Assuming gray1 is a good comment color
-vim.api.nvim_set_hl(0, "Comment", { fg = colors.bright_black })
+vim.api.nvim_set_hl(0, "Comment", { fg = colors.comment })
 vim.api.nvim_set_hl(0, "Constant", { fg = colors.magenta })
 vim.api.nvim_set_hl(0, "String", { fg = colors.green })
 vim.api.nvim_set_hl(0, "Character", { fg = colors.green })
@@ -69,7 +71,7 @@ vim.api.nvim_set_hl(0, "Error", { fg = colors.red, bg = colors.bg })
 vim.api.nvim_set_hl(0, "Todo", { fg = colors.yellow, bg = colors.bg })
 
 -- UI
-vim.api.nvim_set_hl(0, "LineNr", { fg = colors.bright_black })
+vim.api.nvim_set_hl(0, "LineNr", { fg = colors.comment })
 vim.api.nvim_set_hl(0, "CursorLineNr", { fg = colors.fg, bold = true })
 vim.api.nvim_set_hl(0, "StatusLine", { fg = colors.fg, bg = colors.bg })
 vim.api.nvim_set_hl(0, "StatusLineNC", { fg = colors.black, bg = colors.bg })
